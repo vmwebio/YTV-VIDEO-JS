@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTV - Главная</title>
+    <link href="./css/normalise.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <script defer src="./js/navigo.min.js"></script>
+    <script defer src="./js/index.js"></script>
+  </head>
+  <body>
+    <!-- insert header -->
+    <main>
+      <section class="video-list">
+        <div class="container video-list__container">
+          <h2 class="video-list__title">В тренде</h2>
+          <!-- video list -->
+          <ul class="video-list__items"></ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <a class="footer__link" href="/">
+          <svg
+            class="footer__logo"
+            viewBox="0 0 240 32"
+            role="img"
+            aria-label="Логотип сервиса YouTVideo"
+          >
+            <use xlink:href="./img/sprite.svg#logo-white"></use>
+          </svg>
+        </a>
+        <div class="footer__wrap">
+          <p class="footer__copiright">© You-Tvideo, 2023</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

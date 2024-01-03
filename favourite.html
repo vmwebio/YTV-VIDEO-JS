@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTV - Избранное</title>
+    <link href="./css/normalise.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <script defer src="./js/navigo.min.js"></script>
+    <script defer src="./js/index.js"></script>
+  </head>
+  <body>
+    <!-- insert header -->
+    <main>
+      <section class="search">
+        <div class="container search__container">
+          <form class="search__form" action="">
+            <input class="search__input" type="search" />
+            <button class="search__btn" type="submit">
+              <span>поиск</span>
+              <svg class="search__icon">
+                <use xlink:href="./img/sprite.svg#search"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="video-list">
+        <div class="container video-list__container">
+          <h2 class="video-list__title">Избранное</h2>
+
+          <ul class="video-list__items">
+            <li class="video-list__item">
+              <article class="video-card">
+                <a class="video-card__link" href="/video">
+                  <img
+                    class="video-card__thumbnail"
+                    src="./img/default.png"
+                    alt="Превью видео Философия Идущего к реке"
+                  />
+
+                  <h3 class="video-card__title">Философия Идущего к реке</h3>
+                  <p class="video-card__channel">&#9737; Правое полушарие интроверта</p>
+                  <p class="video-card__duration">&#x1F552; 31 мин 25 сек</p>
+                </a>
+                <button
+                  class="video-card__favourite"
+                  type="button"
+                  aria-label="Добавить в избранное"
+                >
+                  <svg class="video-card__icon">
+                    <use
+                      class="star-o"
+                      xlink:href="./img/sprite.svg#star-ob"
+                    ></use>
+                    <use class="star" xlink:href="./img/sprite.svg#star"></use>
+                  </svg>
+                </button>
+              </article>
+            </li>
+
+            <li class="video-list__item">
+              <article class="video-card">
+                <a class="video-card__link" href="/video">
+                  <img
+                    class="video-card__thumbnail"
+                    src="./img/default2.png"
+                    alt="Превью видео Философия Идущего к реке"
+                  />
+
+                  <h3 class="video-card__title">Как выжить в Средние века?</h3>
+                  <p class="video-card__channel">&#9737; Правое полушарие интроверта</p>
+                  <p class="video-card__duration">&#x1F552; 31 мин 25 сек</p>
+                </a>
+                <button
+                  class="video-card__favourite"
+                  type="button"
+                  aria-label="Добавить в избранное"
+                >
+                  <svg class="video-card__icon">
+                    <use
+                      class="star-o"
+                      xlink:href="./img/sprite.svg#star-ob"
+                    ></use>
+                    <use class="star" xlink:href="./img/sprite.svg#star"></use>
+                  </svg>
+                </button>
+              </article>
+            </li>
+
+            <li class="video-list__item">
+              <article class="video-card">
+                <a class="video-card__link" href="/video">
+                  <img
+                    class="video-card__thumbnail"
+                    src="./img/default3.png"
+                    alt="Превью видео Философия Идущего к реке"
+                  />
+
+                  <h3 class="video-card__title">История Кока Колы</h3>
+                  <p class="video-card__channel">&#9737; Правое полушарие интроверта</p>
+                  <p class="video-card__duration">&#x1F552; 31 мин 25 сек</p>
+                </a>
+                <button
+                  class="video-card__favourite"
+                  type="button"
+                  aria-label="Добавить в избранное"
+                >
+                  <svg class="video-card__icon">
+                    <use
+                      class="star-o"
+                      xlink:href="./img/sprite.svg#star-ob"
+                    ></use>
+                    <use class="star" xlink:href="./img/sprite.svg#star"></use>
+                  </svg>
+                </button>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <a class="footer__link" href="/">
+          <svg
+            class="footer__logo"
+            viewBox="0 0 240 32"
+            role="img"
+            aria-label="Логотип сервиса YouTVideo"
+          >
+            <use xlink:href="./img/sprite.svg#logo-white"></use>
+          </svg>
+        </a>
+        <div class="footer__wrap">          
+          <p class="footer__copiright">© You-Tvideo, 2023</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
